@@ -70,7 +70,7 @@ pre {
   overflow-x: auto;
   -ms-overflow-style: none;
   scrollbar-width: none;
-  line-height: 1.3em;
+  line-height: calc(.9 * var(--p-line-height));;
 }
 
 pre::-webkit-scrollbar {
